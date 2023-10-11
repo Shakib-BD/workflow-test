@@ -31,7 +31,7 @@ jobs:
           #git clone git://git.code.sf.net/p/gengkapak/clang-gengkapak gengkapak-clang-gengkapak -b main --depth=1 clang
           #git clone https://github.com/kdrag0n/proton-clang -b master --depth=1 clang
           #git clone https://gitlab.com/mcdofrenchfreis/android-clang-14.0.7.git --depth=1 clang
-      # Build Test (You Can Edit This!)
+      #Build Test (You Can Edit This!)
       - name: Build Kernel
         run: |
           #ccache -M 10G
